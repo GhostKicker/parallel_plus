@@ -6,3 +6,8 @@
 *.pdb
 *.exe
 *.exe
+*.ipch
+*.ilk
+*.sln
+*.iobj
+*.ipdb
