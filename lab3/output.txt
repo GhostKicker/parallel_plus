@@ -1,0 +1,2 @@
+parallel sorted array of 50000000 elements in 7 seconds
+ordinary sorted array of 50000000 elements in 6.969 seconds
