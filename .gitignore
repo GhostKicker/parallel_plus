@@ -11,3 +11,9 @@
 *.sln
 *.iobj
 *.ipdb
+*.tlog
+*.idb
+*.obj
+*.log
+*.vcxproj
+*.filters
