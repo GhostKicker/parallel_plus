@@ -1,4 +1,8 @@
-qsort: parallel: 1000000 elements in 0.147 seconds
-qsort: ordinary: 1000000 elements in 0.121 seconds
-merge: parallel: 1000000 elements in 0.238 seconds
-merge: ordinary: 1000000 elements in 0.532 seconds
+qsort: parallel: 10000000 elements in 1.064 seconds
+qsort: ordinary: 10000000 elements in 1.757 seconds
+merge: parallel: 10000000 elements in 2.913 seconds
+merge: ordinary: 10000000 elements in 5.032 seconds
+0 32767
+0 32767
+0 32767
+0 32767

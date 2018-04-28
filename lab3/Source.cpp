@@ -21,9 +21,10 @@ template<typename T>
 void q_sort_omp(vector<T>& arr, int left = 0, int right = n - 1)
 {
     if (left >= right) return;
+
     int l = left;
     int r = right;
-    T mid = arr[(l + r) / 2];
+    T mid = arr[(rand() % (right - left + 1)) + left];
     while (l <= r)
     {
         while (arr[l] < mid) l++;
@@ -32,7 +33,7 @@ void q_sort_omp(vector<T>& arr, int left = 0, int right = n - 1)
             swap(arr[l++], arr[r--]);
     }
 
-    if (right - left > 2000)
+    if (right - left > 1000)
     {
 #pragma omp parallel sections
         {
@@ -55,7 +56,7 @@ void q_sort(vector<T>& arr, int left = 0, int right = n - 1)
     if (left >= right) return;
     int l = left;
     int r = right;
-    T mid = arr[(l + r) / 2];
+    T mid = arr[(rand() % (right - left + 1)) + left];
     while (l <= r)
     {
         while (arr[l] < mid) l++;
@@ -183,20 +184,23 @@ int main()
         << " seconds" << endl;
 
     cl1 = clock();
-    mergesort_omp(v2);
+    mergesort_omp(v3);
     cl2 = clock();
     cout << "merge: parallel: " << n
         << " elements in " << (cl2 - cl1) / double(CLOCKS_PER_SEC)
         << " seconds" << endl;
 
     cl1 = clock();
-    mergesort(v3);
+    mergesort(v4);
     cl2 = clock();
     cout << "merge: ordinary: " << n
         << " elements in " << (cl2 - cl1) / double(CLOCKS_PER_SEC)
         << " seconds" << endl;
 
-
+    cout << v1[0] << " " << v1[v1.size() - 1] << endl;
+    cout << v2[0] << " " << v2[v1.size() - 1] << endl;
+    cout << v3[0] << " " << v3[v1.size() - 1] << endl;
+    cout << v4[0] << " " << v4[v1.size() - 1] << endl;
 
 
     return 0;
