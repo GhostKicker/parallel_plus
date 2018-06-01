@@ -3,6 +3,7 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
+#include <time.h>
 #include "windows.h"
 
 #define wheels_change 0
@@ -110,6 +111,8 @@ void master(box& bx)
 }
 
 int main() {
+
+    srand(time(NULL));
 
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);

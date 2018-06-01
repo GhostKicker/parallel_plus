@@ -1,34 +1,38 @@
 0: tv off, work on
 0: customer 0 came, needs to change tires
 150: customer 0 was served
-134: customer 1 came, needs to change tires
-300: customer 1 was served
-300: work off, tv on
-658: tv off, work on
-658: customer 2 came, needs to change wheels
-1108: customer 2 was served
-1108: work off, tv on
-1620: tv off, work on
-1620: customer 3 came, needs to change tires
-1770: customer 3 was served
-1770: work off, tv on
-1965: tv off, work on
-1965: customer 4 came, needs to change tires
-2126: customer 5 came, needs to change tires
-2115: customer 4 was served
-2115: work off, tv on
-2126: tv off, work on
-2276: customer 5 was served
-2276: work off, tv on
-2468: customer 6 came, needs to change wheels
-2468: tv off, work on
-2918: customer 6 was served
-2918: work off, tv on
-3459: customer 7 came, needs to change wheels
-3459: tv off, work on
-3712: customer 8 came, needs to change wheels
-3909: customer 7 was served
-4133: customer 9 came, needs to change wheels
-4349: customer 9 is gone
-4359: customer 8 was served
-4359: work for today is done
+150: work off, tv on
+400: customer 1 came, needs to change wheels
+400: tv off, work on
+847: customer 2 came, needs to change wheels
+850: customer 1 was served
+1300: customer 2 was served
+1300: work off, tv on
+1435: customer 3 came, needs to change tires
+1435: tv off, work on
+1594: customer 4 came, needs to change tires
+1585: customer 3 was served
+1585: work off, tv on
+1594: tv off, work on
+1744: customer 4 was served
+1744: work off, tv on
+2154: customer 5 came, needs to change wheels
+2154: tv off, work on
+2604: customer 5 was served
+2604: work off, tv on
+3015: customer 6 came, needs to change wheels
+3015: tv off, work on
+3465: customer 6 was served
+3465: work off, tv on
+3699: customer 7 came, needs to change tires
+3699: tv off, work on
+3849: customer 7 was served
+3849: work off, tv on
+3941: customer 8 came, needs to change wheels
+3941: tv off, work on
+4391: customer 8 was served
+4391: work off, tv on
+4768: customer 9 came, needs to change tires
+4768: tv off, work on
+4918: customer 9 was served
+4918: work for today is done
